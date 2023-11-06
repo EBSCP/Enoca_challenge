@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.Border {
+    border: solid 6px  color(srgb red green blue);
+    border-color:black !important;
+    width: 1500px;
+    height: 200px;
+    
+}
+
+#Font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 100px;
+}
+#renkliDugme {
+    background-color: black;
+    color:white;
+    padding: 23px 27px;
+    border: none;
+    cursor: pointer;
+    border-radius: 40%;
+}
+#renkliDugme:hover{
+    background-color: greenyellow !important;
+}
+.ToMakeitRightSide {
+    float: right;
+}
+.radius {
+    margin:10px;
+    border-radius: 30px;
+    height: 50px;
+}
+
+#size{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#size_1{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#size_2{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+.radius1 {
+    margin:10px;
+    border-radius:30px;
+    height: 30px;
+    width: 40px;
+    background-color: aliceblue;
+}
+.renkliDugme_1 {
+    background-color: white;
+    color:black;
+    border: none;
+    cursor: pointer;
+     border-radius: 40%;
+}
+.renkliDugme_1:hover{
+    background-color: greenyellow!important;
+}
+ul.horizantal {
+    display: flex;
+    padding:0;
+    list-style-type: none;
+    margin-left: 9%;
+    margin-top: 3%;
+    
+}
+ul.horizantal li {
+    margin-right: 10px;
+    
+}
+.blocking{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+a { 
+    text-decoration: none;
+    color:grey;
+}
+
+
+body {
+    font-size: 10px;
+}
+
+/* Ekran boyutu 768 piksel veya daha küçük olduğunda stil değişiklikleri yap */
+@media screen and (max-width: 768px)  {
+    body {
+        font-size:small;
+        background-color: darkblue;
+        
+    }
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 30% 30% 30%;
+    }
+}
+
+/* Ekran boyutu 1024 piksel veya daha büyük olduğunda stil değişiklikleri yap */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: medium;
+        background-color: white;
+    }
+}
+
+
+.Area {
+    display: flex;
+    width: 1500px;
+    height: 400px;
+}
+.Article_line {
+    background-color: rgb(233, 233, 233);
+    color:black;
+    width: 500px;
+    height: 400px;
+}
+
+
+.Card {
+    border-color: black;
+    border: solid black;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    color:white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.slider {
+    border:black solid;
+    width: 1500px;
+    height: 400px;   
+}
+
+
+
+.renkliDugme_2 {
+    background-color: black;
+    color:white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.renkliDugme_2:hover{
+    background-color: greenyellow!important;
+}
+
+.alan {
+    width: 1500px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+}

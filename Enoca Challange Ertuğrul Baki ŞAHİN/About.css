@@ -1,0 +1,24 @@
+.pictures{
+    width: 180px;
+    height: 210px;
+    border-radius: 30px;
+}
+.style {
+    font-family: Arial, sans-serif;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.Area {
+    width: 1500px;
+    height: 200px;
+    display: grid;
+}
+
+.style_1 {
+    font-family: Arial, sans-serif;
+    margin-left: 100px;
+}
+#distance{
+    margin-left: 300px;
+}

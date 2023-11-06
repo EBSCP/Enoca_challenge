@@ -1,0 +1,57 @@
+#Area {
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(244, 244, 244);
+  
+}
+.Font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    padding-top:  100px;
+    padding-left: 150px;
+}
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input-container {
+    display: flex; /* Flexbox kullanarak yan yana yerleştirme */
+  }
+.input-container input {
+    margin-right: 10px; /* İnput alanları arasında boşluk bırakmak için */
+  }
+.renkli_dugme_1 {
+    background-color: black;
+    color:white;
+    padding: 23px 27px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.renkli_dugme_1:hover {
+    background-color: greenyellow;
+}
+.raduis1{
+  margin:10px;
+  border-radius: 30px;
+  height: 50px;
+  width: 100px;
+}
+
+.dividing {
+  display: flex;
+  padding:0;
+  list-style-type: none;
+  margin-left: 9%;
+  margin-top: 4%;
+  padding-left:10%;
+  padding-top: 10px;
+  
+}
+#Spacesing {
+  margin-top:  15px;
+}
+.middling {
+  margin-left: 20%;
+}
